@@ -11,6 +11,12 @@ function App() {
     if(mode === 'light'){
       setMode('dark')
       document.body.style.backgroundColor = '#343a40'
+      // setInterval(()=>{
+      //   document.title = "Dark mode"
+      // },2000)
+      // setInterval(()=>{
+      //   document.title = "Dark mode is Amazing"
+      // },1000)
     }
     else{
       setMode('light')
